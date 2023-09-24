@@ -1,0 +1,39 @@
+.panel{
+  width: 370px;
+  box-shadow: 0px 1px 4px 0px rgba(19, 19, 19, 0.1);
+  padding: 8px 16px;
+  border-radius: 4px;
+  &__group{
+    display: flex;
+    justify-content: space-between;
+    &--button{
+      display: flex;
+      gap: 10px;
+    }
+  }
+}
+.search{
+  display: flex;
+  align-items: center;
+  width: 366px;
+  padding: 10px 0;
+  position: relative;
+  box-shadow: 0px 1px 4px 0px rgba(19, 19, 19, 0.10); 
+  border-radius: 15px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  &__group{
+    width: 90%;
+    input{
+      padding: 10px 40px;
+      border: 1px solid gray;
+      border-radius: 30px;
+      width: 90%;
+    }
+    img{
+      position: absolute;
+      top: 22px;
+      left: 30px;
+    }
+  }
+}

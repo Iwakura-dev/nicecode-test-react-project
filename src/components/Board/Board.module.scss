@@ -1,0 +1,9 @@
+.board{
+  padding: 10px 0;
+  button{
+    color: #616F82;
+    &:focus{
+      color: #4198C5;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.collection{
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+  gap: 100px;
+  &__leftside{
+    display: flex;
+    flex-direction: column;
+    &--cider{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 10px;
+      span{
+        color: white;
+        background-color: #616F82;
+        border-radius: 20px;
+        padding: 2px 6px;
+      }
+      button{
+        color: #616F82;
+      }
+    }
+    &--profile{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  &__rightside{
+    &--board{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
